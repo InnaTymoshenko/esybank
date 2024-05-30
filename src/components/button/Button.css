@@ -1,0 +1,25 @@
+.btn {
+	height: 3.5rem;
+	width: 12rem;
+	border: 1px solid transparent;
+	border-radius: var(--radii);
+	font-size: var(--fs);
+	font-weight: var(--fw-normal);
+	color: var(--color-white);
+	background-image: var(--bg-btn);
+	cursor: pointer;
+	opacity: 1;
+	transition: opacity 0.3s ease-in;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+@media screen and (min-width: 778px) and (max-width: 1100px) {
+	.btn {
+		width: 10rem;
+		height: 3rem;
+		font-size: 0.9em;
+	}
+}
