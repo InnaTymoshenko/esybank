@@ -1,5 +1,3 @@
-@import-normalize;
-
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -32,4 +30,17 @@ body {
 	line-height: 1.4;
 	background-color: var(--color-gray);
 	color: var(--color-blue);
+}
+
+#error-page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#error-page a .btn {
+	color: white;
 }

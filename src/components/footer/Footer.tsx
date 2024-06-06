@@ -37,11 +37,11 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="footer_nav">
-						<Link to={'about'}>About Us</Link>
-						<Link to={'careers'}>Careers</Link>
-						<Link to={'contact'}>Contact</Link>
+						<Link to={'/about'}>About Us</Link>
+						<Link to={'/careers'}>Careers</Link>
+						<Link to={'/contact'}>Contact</Link>
 						<Link to={'#'}>Support</Link>
-						<Link to={'blog'}>Blog</Link>
+						<Link to={'/blog'}>Blog</Link>
 						<Link to={'#'}>Privacy Policy</Link>
 					</div>
 				</div>

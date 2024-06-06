@@ -78,7 +78,7 @@ const Root = () => {
 						</div>
 					</div>
 				</div>
-				{isOpen ? <div className="nav_modal" onClick={() => setIsOren(!isOpen)}></div> : null}
+				<div className={isOpen ? 'nav_modal modal-active' : 'nav_modal'} onClick={() => setIsOren(!isOpen)}></div>
 
 				<Outlet />
 			</div>

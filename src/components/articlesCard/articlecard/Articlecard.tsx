@@ -14,7 +14,7 @@ const Articlecard = ({ article, className }: Props) => {
 			<div>
 				<span>By {article.author}</span>
 				<h3>
-					<Link to={''}>{article.title}</Link>
+					<Link to={'blog'}>{article.title}</Link>
 				</h3>
 
 				<p>{article.description}</p>

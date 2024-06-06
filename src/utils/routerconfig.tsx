@@ -5,11 +5,13 @@ import AboutPage from '../pages/aboutPage/AboutPage'
 import ContactPage from '../pages/contactPage/ContactPage'
 import BlogPage from '../pages/blogpage/BlogPage'
 import CareersPage from '../pages/careersPage/CareersPage'
+import ErrorPage from '../error-page'
 
 export const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App />,
+		errorElement: <ErrorPage />,
 		children: [
 			{
 				path: '',
