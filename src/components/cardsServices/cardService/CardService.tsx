@@ -7,7 +7,7 @@ const CardService = ({ title, image, description }: IService) => {
 			<div>
 				<img src={image} alt={title} />
 			</div>
-			<h4>{title}</h4>
+			<h3>{title}</h3>
 			<p>{description}</p>
 		</React.Fragment>
 	)

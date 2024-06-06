@@ -13,9 +13,9 @@ const Articlecard = ({ article, className }: Props) => {
 			<div className={className} style={{ backgroundImage: `url(${article.image})` }}></div>
 			<div>
 				<span>By {article.author}</span>
-				<h4>
+				<h3>
 					<Link to={''}>{article.title}</Link>
-				</h4>
+				</h3>
 
 				<p>{article.description}</p>
 			</div>

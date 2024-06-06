@@ -1,9 +1,9 @@
 .btn {
-	height: 3.5rem;
-	width: 12rem;
+	height: 2.8rem;
+	width: 11rem;
 	border: 1px solid transparent;
 	border-radius: var(--radii);
-	font-size: var(--fs);
+	font-size: 0.9em;
 	font-weight: var(--fw-normal);
 	color: var(--color-white);
 	background-image: var(--bg-btn);
@@ -18,8 +18,16 @@
 
 @media screen and (min-width: 778px) and (max-width: 1100px) {
 	.btn {
-		width: 10rem;
-		height: 3rem;
-		font-size: 0.9em;
+		width: 9rem;
+		height: 2.5rem;
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 778px) {
+	.btn {
+		width: 16rem;
+		height: 4rem;
+		font-size: 1.2em;
 	}
 }
