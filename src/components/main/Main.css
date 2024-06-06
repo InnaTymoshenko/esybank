@@ -224,7 +224,7 @@
 	.center-block,
 	.bottom-block,
 	.top-block {
-		height: 75vh;
+		height: 70vh;
 	}
 }
 
@@ -311,19 +311,20 @@
 	}
 
 	.main_top_image {
-		width: 50%;
+		width: 75%;
 	}
 
 	.main_image.wave-desktor {
 		display: block;
-		width: 170%;
-		top: -6rem;
+		width: 150%;
+		top: -7rem;
+		left: 0;
 	}
 
 	.main_image.phones {
-		width: 110%;
-		top: -5rem;
-		left: 5rem;
+		left: 7rem;
+		top: -6rem;
+		width: 120%;
 	}
 
 	.center-block {
