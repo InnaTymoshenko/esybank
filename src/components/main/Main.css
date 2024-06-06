@@ -276,12 +276,20 @@
 		height: 55vh;
 	}
 
+	.center-block {
+		height: 60vh;
+	}
+
 	.main_center.service-card {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
+	}
+
+	.main_bottom.article-card {
+		height: 70%;
 	}
 }
 
