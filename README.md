@@ -35,4 +35,4 @@ Users should be able to:
 ## Author
 
 - Website - [Tymoshenko Inna](https://itymoshenko.vercel.app/)
-- Frontend Mentor - [@InnaTymoshenko](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@InnaTymoshenko](https://www.frontendmentor.io/profile/InnaTymoshenko)
