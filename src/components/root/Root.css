@@ -193,7 +193,7 @@
 
 	.nav_modal.modal-active {
 		left: 0;
-		background-color: hsl(233, 26%, 24%, 30%);
+		background: linear-gradient(180deg, hsl(233, 26%, 24%, 70%), hsl(0, 0%, 100%));
 		display: flex;
 	}
 
